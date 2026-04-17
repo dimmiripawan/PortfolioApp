@@ -10,6 +10,7 @@ import com.portfolio.contact.model.ContactRequest;
 import com.portfolio.contact.service.EmailService;
 
 @RestController
+@CrossOrigin(origins = "*")
 @RequestMapping("/api/contact")
 public class ContactController {
 
